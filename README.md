@@ -2,7 +2,7 @@
 Send mail over PHP with minimal requirements from email services
 
 ## Minimal requirements from email services:
-1. Headers fields:
+1. Header fields:
 	* Content-type
 	* Charset
 	* From
@@ -10,4 +10,4 @@ Send mail over PHP with minimal requirements from email services
 	* Content-Transfer-Encoding
 	* Date
 	* Subject
-2. Handle Subject field over iconv_mime_encode.
+2. Handle Subject field of header over [iconv_mime_encode](http://php.net/manual/en/function.iconv-mime-encode.php).
