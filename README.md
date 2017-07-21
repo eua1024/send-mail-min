@@ -1,7 +1,8 @@
 # PHP minimal send mail
 Send mail over PHP with minimal requirements from email services
 
-Minimal requirements:
+##Minimal requirements from email services:
+1. Headers fields:
 * Content-type
 * Charset
 * From
@@ -9,5 +10,4 @@ Minimal requirements:
 * Content-Transfer-Encoding
 * Date
 * Subject
-
-Handle Subject field over iconv_mime_encode.
+2. Handle Subject field over iconv_mime_encode.
